@@ -7,10 +7,10 @@
 const CONFIG = {
     // Información del proyecto
     proyecto: {
-        nombre: 'DASHLINO',
-        subtitulo: 'Sistema de Análisis y Control de Contratistas',
-        empresa: 'GRUPO MÉXICO',
-        version: '2.0.0'
+        nombre: 'SICAP',
+        subtitulo: 'Sistema de Integración y Control de Adopción de PADRÓN',
+        empresa: '',
+        version: '2.0'
     },
 
     // Configuración de archivos Excel
