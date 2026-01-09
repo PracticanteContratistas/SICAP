@@ -41,7 +41,7 @@
             <div class="header-content">
                 <div>
                     <div class="brand-title">SICAP</div>
-                    <div class="brand-subtitle">Sistema de Integración y Control de Adopción de PADRON</div>
+                    <div class="brand-subtitle">Sistema de Integración y Control de Adopción de PADRÓN</div>
                 </div>
                 <div style="text-align: right;">
                     <div class="date-mes" id="mesActual">CARGANDO...</div>
@@ -145,6 +145,33 @@
 
             <!-- CONCENTRACIÓN 80/20 -->
             <div class="concentracion-section">
+
+            <!-- NUEVOS PROYECTOS CANANEA (Separado) -->
+            <div class="nuevos-proyectos-section" id="nuevosProyectosSection" style="display: none;">
+                <div class="np-header">📦 NUEVOS PROYECTOS CANANEA</div>
+                <div class="np-subtitle">No incluido en el cálculo de captura global</div>
+                <div class="np-grid">
+                    <div class="np-item">
+                        <div class="np-valor" id="npContratosEstado">--</div>
+                        <div class="np-label">En Estado de Fuerza</div>
+                    </div>
+                    <div class="np-item">
+                        <div class="np-valor" id="npCapturados">--</div>
+                        <div class="np-label">Capturados</div>
+                    </div>
+                    <div class="np-item">
+                        <div class="np-valor np-faltantes" id="npFaltantes">--</div>
+                        <div class="np-label">Faltantes</div>
+                    </div>
+                    <div class="np-item">
+                        <div class="np-valor" id="npPorcentaje">--%</div>
+                        <div class="np-label">% Captura</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CONCENTRACIÓN 80/20 -->
+            <div class="concentracion-section">
                 <div class="concentracion-header">🎯 Concentración de Problemas (80/20)</div>
                 <div class="concentracion-barra">
                     <div class="concentracion-fill" id="concentracionFill" style="width: 0%;">--</div>
@@ -188,7 +215,7 @@
             <div class="footer-divider"></div>
             <div class="footer-content">
                 <div>
-                    <span class="footer-brand">SICAP v1.0</span>
+                    <span class="footer-brand">SICAP v2.0</span>
                 </div>
                 <div class="footer-valor" id="footerDuplicados" onclick="mostrarExplicacionDuplicados()">
                     💎 Cargando...
