@@ -40,8 +40,13 @@ const Graficas = {
             const ultimoMes = datosMeses[datosMeses.length - 1];
             const proyMes1 = Math.min(100, parseFloat(tasasCaptura[tasasCaptura.length - 1]) + (proyeccion.velocidadMensual * 100));
             const proyMes2 = Math.min(100, proyMes1 + (proyeccion.velocidadMensual * 100));
-            
-            labels.push('DIC', 'ENE');
+
+            const secuenciaMeses = ['ENE','FEB','MAR','ABR','MAY','JUN','JUL','AGO','SEP','OCT','NOV','DIC'];
+            const idxUltimo = secuenciaMeses.indexOf(ultimoMes.mes);
+            const labelProy1 = secuenciaMeses[(idxUltimo + 1) % 12];
+            const labelProy2 = secuenciaMeses[(idxUltimo + 2) % 12];
+
+            labels.push(labelProy1, labelProy2);
             tasasCaptura.push(proyMes1.toFixed(1), proyMes2.toFixed(1));
             
             // Proyectar faltantes (reducción proporcional)

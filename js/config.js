@@ -20,12 +20,12 @@ const CONFIG = {
         
         // Patrón de nombres de archivo (el dashboard buscará estos)
         archivos: [
-            { mes: 'SEP', nombre: 'SEPTIEMBRE', archivo: 'SEPTIEMBRE_2025.xlsx', orden: 1 },
-            { mes: 'OCT', nombre: 'OCTUBRE', archivo: 'OCTUBRE_2025.xlsx', orden: 2 },
-            { mes: 'NOV', nombre: 'NOVIEMBRE', archivo: 'NOVIEMBRE_2025.xlsx', orden: 3 },
-            { mes: 'DIC', nombre: 'DICIEMBRE', archivo: 'DICIEMBRE_2025.xlsx', orden: 4 },
-            { mes: 'ENE', nombre: 'ENERO', archivo: 'ENERO_2026.xlsx', orden: 5 },
-            { mes: 'FEB', nombre: 'FEBRERO', archivo: 'FEBRERO_2026.xlsx', orden: 6 }
+            { mes: 'SEP', nombre: 'SEPTIEMBRE', archivo: 'SEPTIEMBRE_2025.xlsx', año: 2025, orden: 1 },
+            { mes: 'OCT', nombre: 'OCTUBRE', archivo: 'OCTUBRE_2025.xlsx', año: 2025, orden: 2 },
+            { mes: 'NOV', nombre: 'NOVIEMBRE', archivo: 'NOVIEMBRE_2025.xlsx', año: 2025, orden: 3 },
+            { mes: 'DIC', nombre: 'DICIEMBRE', archivo: 'DICIEMBRE_2025.xlsx', año: 2025, orden: 4 },
+            { mes: 'ENE', nombre: 'ENERO', archivo: 'ENERO_2026.xlsx', año: 2026, orden: 5 },
+            { mes: 'FEB', nombre: 'FEBRERO', archivo: 'FEBRERO_2026.xlsx', año: 2026, orden: 6 }
         ],
         
         // Nombres de las hojas a leer

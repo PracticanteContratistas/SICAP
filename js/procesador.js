@@ -51,6 +51,7 @@ const Procesador = {
             mes: infoArchivo.mes,
             nombreMes: infoArchivo.nombre,
             archivo: infoArchivo.archivo,
+            año: infoArchivo.año,
             
             // Indicadores principales (del TOTAL GENERAL, no recalculados)
             tasaCaptura: indicadores.totales?.porcentaje || 0,

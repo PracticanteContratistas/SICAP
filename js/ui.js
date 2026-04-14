@@ -133,7 +133,7 @@ const UI = {
      */
     actualizarPanorama(datos, comparacion, primerMes) {
         // Mes actual
-        this.actualizarTexto('panoramaMes', datos.nombreMes + ' 2025');
+        this.actualizarTexto('panoramaMes', datos.nombreMes + ' ' + datos.año);
         
         // Faltantes
         this.actualizarTexto('panoramaFaltantes', datos.totalFaltantes);
@@ -281,7 +281,7 @@ const UI = {
      * @param {Object} datos - Datos del mes
      */
     actualizarHeader(datos) {
-        this.actualizarTexto('mesActual', datos.nombreMes.toUpperCase() + ' 2025');
+        this.actualizarTexto('mesActual', datos.nombreMes.toUpperCase() + ' ' + datos.año);
         
         // Fecha de actualización
         const hoy = new Date();
